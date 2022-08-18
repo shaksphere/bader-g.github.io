@@ -10,6 +10,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center; }
+  .intro#about {
+    background-color: #242732; }
   @media (max-width: 767px) {
     .intro#about {
       padding-top: 25px; } }
@@ -68,7 +70,7 @@ h3.title {
   .skill-images div {
     width: 120px;
     height: 120px;
-    background-color: #242732;
+    background-color: #4537ca;
     padding: 15px;
     border-radius: 5px; }
     @media (max-width: 767px) {
