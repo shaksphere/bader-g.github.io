@@ -66,11 +66,15 @@ h3.title {
     .skill-images {
       margin-top: 45px; } }
   .skill-images div {
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
     background-color: #242732;
     padding: 15px;
     border-radius: 5px; }
+    @media (max-width: 767px) {
+      .skill-images div {
+        width: 100px;
+        height: 100px; } }
     .skill-images div img {
       width: 100%;
       object-fit: contain;
