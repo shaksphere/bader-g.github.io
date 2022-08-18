@@ -63,7 +63,8 @@ h3.title {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 25px; }
+  gap: 25px;
+  padding-bottom: 30px; }
   @media (max-width: 767px) {
     .skill-images {
       margin-top: 45px; } }
