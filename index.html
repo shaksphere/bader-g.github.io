@@ -1,13 +1,135 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bader G</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="style.css" rel="stylesheet">
 </head>
+
 <body>
-    <h1>Hello!</h1>
+    <section class="intro">
+        <div class="container">
+            <h1 id="intro-text">
+                <span>Hello, My name is Bader.</span>
+                <span>I am a full stack web developer.</span>
+            </h1>
+            <a class="intro-button inline" href="#about">About Me <span class="fa fa-arrow-right-long"></span></a>
+        </div>
+    </section>
+    <section class="intro" id="about">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <h3 class="title">About Me</h3>
+                    <p class="about-text">I’m a web developer that specialises in WordPress with 5+ years of experience
+                        creating themes and plugins from scratch and connecting websites to services via REST APIs. In
+                        addition to WordPress, I’m also experienced in developing websites with the Laravel PHP
+                        framework and mobile application development with Java and the Flutter framework.</p>
+                    <a class="intro-button" href="#portfolio">My Portfolio <span
+                            class="fa fa-arrow-right-long"></span></a>
+                </div>
+                <div class="col-md-6">
+                    <div class="skill-images">
+                        <div class="logo"><img src="images\HTML5_Logo.svg" alt=""></div>
+                        <div class="logo"><img src="images\CSS3_logo_and_wordmark.svg" alt=""></div>
+                        <div class="logo"><img src="images\Javascript-shield.svg" alt=""></div>
+                        <div class="logo"><img src="images\MySQL_textlogo.svg.png" alt=""></div>
+                        <div class="logo"><img src="images\PHP-logo.svg.png" alt=""></div>
+                        <div class="logo"><img src="images\Wordpress-Logo.svg" alt=""></div>
+                        <div class="logo"><img src="images\512px-Sass_Logo_Color.svg.png" alt=""></div>
+                        <div class="logo"><img src="images\JQuery-Logo.svg" alt=""></div>
+                        <div class="logo"><img src="images\1024px-Laravel.svg.png" alt=""></div>
+                        <div class="logo"><img src="images\rest-api-icon.svg" alt=""></div>
+                        <div class="logo"><img src="images\java-vertical.svg" alt=""></div>
+                        <div class="logo"><img src="images\64d67700f8293a9dc827.svg" alt="flutter"></div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section class="intro" id="portfolio">
+        <div class="container">
+            <h3 class="title">A few projects i've completed</h3>
+            <div class="projects">
+                <div class="project">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="content">
+                                <span class="icon fa fa-globe"></span>
+                                <h4>Theme development</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras a tristique diam, et
+                                    viverra sem. Ut et arcu vel libero rhoncus placerat. Integer interdum vulputate
+                                    tortor nec iaculis. Vivamus efficitur turpis id facilisis euismod. Duis pellentesque
+                                    semper ligula, nec pharetra eros facilisis at. Proin lobortis convallis tellus a
+                                    sodales. Morbi pulvinar nec ipsum nec semper. Maecenas sollicitudin risus eu arcu
+                                    lobortis mollis.</p>
+                                <p class="disclamer">Designed & Developed by Me</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="img-holder"><img src="images\project1.png" alt=""></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="project">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="content">
+                                <span class="icon fa fa-mobile-android-alt"></span>
+                                <h4>Mobile App</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras a tristique diam, et
+                                    viverra sem. Ut et arcu vel libero rhoncus placerat. Integer interdum vulputate
+                                    tortor nec iaculis. Vivamus efficitur turpis id facilisis euismod. Duis pellentesque
+                                    semper ligula, nec pharetra eros facilisis at. Proin lobortis convallis tellus a
+                                    sodales. Morbi pulvinar nec ipsum nec semper. Maecenas sollicitudin risus eu arcu
+                                    lobortis mollis.</p>
+                                <p class="disclamer">Designed & Developed by Me</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="img-holder"><img
+                                    src="images\ezgif.com-gif-maker-1_iphone13midnight_portrait.png" alt=""></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="project">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="content">
+                                <span class="icon fa fa-plug"></span>
+                                <h4>Plugin development</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras a tristique diam, et
+                                    viverra sem. Ut et arcu vel libero rhoncus placerat. Integer interdum vulputate
+                                    tortor nec iaculis. Vivamus efficitur turpis id facilisis euismod. Duis pellentesque
+                                    semper ligula, nec pharetra eros facilisis at. Proin lobortis convallis tellus a
+                                    sodales. Morbi pulvinar nec ipsum nec semper. Maecenas sollicitudin risus eu arcu
+                                    lobortis mollis.</p>
+                                <p class="disclamer">Developed by Me working at Acacia Design</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="img-holder"><img src="images\inv-calendar.png" alt=""></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+        integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+    <script src="js\my-script.js"></script>
 </body>
+
 </html>
