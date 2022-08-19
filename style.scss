@@ -338,7 +338,7 @@ h1#intro-text {
             width: 300px;
         }
     }
-    &:before {
+    /*&:before {
         content: '';
         position: absolute;
         width: 0;
@@ -347,5 +347,5 @@ h1#intro-text {
         left: 0;
         bottom: -11px;
         transition: width .4s ease;
-    }
+    }*/
 }

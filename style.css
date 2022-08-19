@@ -227,7 +227,17 @@ h1#intro-text {
 .svg-title {
   opacity: 0;
   position: relative;
-  margin-bottom: 25px; }
+  margin-bottom: 25px;
+  /*&:before {
+      content: '';
+      position: absolute;
+      width: 0;
+      height: 5px;
+      background: #48F2E3;
+      left: 0;
+      bottom: -11px;
+      transition: width .4s ease;
+  }*/ }
   .svg-title path {
     transition: fill .4s ease; }
   .svg-title.active {
@@ -239,14 +249,5 @@ h1#intro-text {
   @media (max-width: 767px) {
     .svg-title svg {
       width: 300px; } }
-  .svg-title:before {
-    content: '';
-    position: absolute;
-    width: 0;
-    height: 5px;
-    background: #48F2E3;
-    left: 0;
-    bottom: -11px;
-    transition: width .4s ease; }
 
 /*# sourceMappingURL=style.css.map */
