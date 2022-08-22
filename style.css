@@ -29,6 +29,8 @@ body {
   -webkit-transition: all .2s ease-in-out;
   transition: all .4s ease;
   background-size: 200% 100%; }
+  .intro-button.web-link {
+    margin: 0; }
   .intro-button.inline {
     display: block;
     max-width: 150px !important;
@@ -132,7 +134,8 @@ h3.title {
       flex-direction: column;
       justify-content: center;
       padding: 0 80px;
-      gap: 15px; }
+      gap: 15px;
+      align-items: flex-start; }
       @media (max-width: 767px) {
         .projects .project .content {
           padding: 25px !important; } }

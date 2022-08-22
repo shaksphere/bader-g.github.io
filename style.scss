@@ -53,7 +53,9 @@ body {
     -webkit-transition: all .2s ease-in-out;
     transition: all .4s ease;
     background-size: 200% 100%;
-
+    &.web-link{
+        margin: 0;
+    }
     &.inline {
         display: block;
         max-width: 150px !important;
@@ -182,6 +184,7 @@ h3.title {
             justify-content: center;
             padding: 0 80px;
             gap: 15px;
+            align-items: flex-start;
             @include mobile(){
                 padding: 25px !important;
             }
