@@ -183,14 +183,11 @@ h3.title {
             justify-content: center;
             padding: 0 80px;
             align-items: flex-start;
-            &:not(:last-child){
+            *:not(:last-child) {
                 margin-bottom: 15px;
             }
             @include mobile(){
                 padding: 25px !important;
-                *:not(:last-child) {
-                    margin-bottom: 15px;
-                }
             }
             h4 {
                 margin: 0;
