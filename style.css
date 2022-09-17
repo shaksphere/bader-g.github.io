@@ -138,7 +138,9 @@ h3.title {
         margin-bottom: 15px; }
       @media (max-width: 767px) {
         .projects .project .content {
-          padding: 25px !important; } }
+          padding: 25px !important; }
+          .projects .project .content *:not(:last-child) {
+            margin-bottom: 15px; } }
       .projects .project .content h4 {
         margin: 0; }
       .projects .project .content p {

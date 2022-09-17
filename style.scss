@@ -188,6 +188,9 @@ h3.title {
             }
             @include mobile(){
                 padding: 25px !important;
+                *:not(:last-child) {
+                    margin-bottom: 15px;
+                }
             }
             h4 {
                 margin: 0;
