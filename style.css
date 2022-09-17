@@ -70,14 +70,15 @@ h3.title {
     margin-right: 80px; } }
 
 .skill-images {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 25px;
-  padding-bottom: 30px; }
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(110px, 1fr));
+  gap: 25px; }
   @media (max-width: 767px) {
     .skill-images {
-      margin-top: 45px; } }
+      margin-top: 45px;
+      margin-bottom: 45px;
+      grid-template-columns: repeat(auto-fill, minmax(79px, 1fr));
+      gap: 10px; } }
   .skill-images div {
     width: 120px;
     height: 120px;
@@ -106,18 +107,16 @@ h3.title {
 
 .projects {
   display: flex;
-  flex-direction: column;
-  gap: 30px;
-  margin-top: 40px; }
+  flex-direction: column; }
   .projects .project {
     background: #242732;
     border-radius: 15px;
     overflow: hidden;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     display: flex;
-    flex-direction: column;
-    gap: 30px;
-    gap: 30px; }
+    flex-direction: column; }
+    .projects .project:not(:last-child) {
+      margin-bottom: 30px; }
     @media (min-width: 767px) {
       .projects .project {
         height: 450px !important; } }
@@ -134,8 +133,9 @@ h3.title {
       flex-direction: column;
       justify-content: center;
       padding: 0 80px;
-      gap: 15px;
       align-items: flex-start; }
+      .projects .project .content:not(:last-child) {
+        margin-bottom: 15px; }
       @media (max-width: 767px) {
         .projects .project .content {
           padding: 25px !important; } }
