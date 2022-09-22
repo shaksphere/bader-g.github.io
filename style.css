@@ -77,7 +77,7 @@ h3.title {
     .skill-images {
       margin-top: 45px;
       margin-bottom: 45px;
-      grid-template-columns: repeat(auto-fill, minmax(79px, 1fr));
+      grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
       gap: 10px; } }
   .skill-images div {
     width: 120px;
