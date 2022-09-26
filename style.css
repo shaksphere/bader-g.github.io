@@ -160,6 +160,9 @@ h3.title {
         max-height: 400px;
         object-fit: contain;
         padding: 30px; }
+        .projects .project .img-holder img.website {
+          object-fit: cover;
+          object-position: top; }
         @media (max-width: 767px) {
           .projects .project .img-holder img {
             height: 300px; } }

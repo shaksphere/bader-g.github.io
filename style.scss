@@ -220,6 +220,10 @@ h3.title {
                 max-height: 400px;
                 object-fit: contain;
                 padding: 30px;
+                &.website{
+                    object-fit: cover;
+                    object-position: top;
+                }
                 @include mobile(){
                     height: 300px;
                 }
